@@ -13,7 +13,7 @@
  *
  */
 
- module full_adder(
+module full_adder(
 	input 		a,
 	input 		b,
 	input 		c_in,
@@ -48,7 +48,6 @@ module adder(
 		 carry_12,
 		 carry_13,
 		 carry_14;
-
 	full_adder full_adder0(
 		.a  	(a[0]),
 		.b    	(b[0]),
@@ -161,5 +160,4 @@ module adder(
 		.c_out  (overflow),
 		.s      (sum[15])
 	);
-
 endmodule
